@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TakePhotoAndVideo_Example' do
+  pod 'TakePhotoAndVideo', :path => '../'
+
+  target 'TakePhotoAndVideo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
