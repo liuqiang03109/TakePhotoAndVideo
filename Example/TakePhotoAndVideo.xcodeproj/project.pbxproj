@@ -14,6 +14,8 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6DF0B536E7A4A77756F91574 /* Pods_TakePhotoAndVideo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B70DCA037F0F3D6588A03AA /* Pods_TakePhotoAndVideo_Tests.framework */; };
+		80E2F7D31E7960B80050B388 /* TakePhotoAndVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2F7D21E7960B80050B388 /* TakePhotoAndVideoView.swift */; };
+		80E2F7D51E7961000050B388 /* circle@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80E2F7D41E7961000050B388 /* circle@2x.jpg */; };
 		9E004110134A3839E97CEC4A /* Pods_TakePhotoAndVideo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EC5617B159B2193DDEED5F /* Pods_TakePhotoAndVideo_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		173A83055E7DC6E5E114D564 /* TakePhotoAndVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TakePhotoAndVideo.podspec; path = ../TakePhotoAndVideo.podspec; sourceTree = "<group>"; };
+		173A83055E7DC6E5E114D564 /* TakePhotoAndVideo.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TakePhotoAndVideo.podspec; path = ../TakePhotoAndVideo.podspec; sourceTree = "<group>"; };
 		5B70DCA037F0F3D6588A03AA /* Pods_TakePhotoAndVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakePhotoAndVideo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* TakePhotoAndVideo_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TakePhotoAndVideo_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,10 +43,12 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		669F65FDBA0F506B5F667D47 /* Pods-TakePhotoAndVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotoAndVideo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotoAndVideo_Tests/Pods-TakePhotoAndVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80E2F7D21E7960B80050B388 /* TakePhotoAndVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoAndVideoView.swift; sourceTree = "<group>"; };
+		80E2F7D41E7961000050B388 /* circle@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "circle@2x.jpg"; sourceTree = "<group>"; };
 		88EC5617B159B2193DDEED5F /* Pods_TakePhotoAndVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakePhotoAndVideo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D787FCC45B9A33AD3381BC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D787FCC45B9A33AD3381BC8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B25B0532EF16DB5743E47090 /* Pods-TakePhotoAndVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotoAndVideo_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotoAndVideo_Example/Pods-TakePhotoAndVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		CA39EF92EC8AFB8444672C86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		CA39EF92EC8AFB8444672C86 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E461FA9410782494380CF1F4 /* Pods-TakePhotoAndVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotoAndVideo_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotoAndVideo_Example/Pods-TakePhotoAndVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
 		ECD2F609F7464782AA325804 /* Pods-TakePhotoAndVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotoAndVideo_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotoAndVideo_Tests/Pods-TakePhotoAndVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,9 +106,11 @@
 		607FACD21AFB9204008FA782 /* Example for TakePhotoAndVideo */ = {
 			isa = PBXGroup;
 			children = (
+				80E2F7D11E7960150050B388 /* Classes */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
+				80E2F7D41E7961000050B388 /* circle@2x.jpg */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
@@ -157,6 +163,14 @@
 				ECD2F609F7464782AA325804 /* Pods-TakePhotoAndVideo_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		80E2F7D11E7960150050B388 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				80E2F7D21E7960B80050B388 /* TakePhotoAndVideoView.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,6 +265,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				80E2F7D51E7961000050B388 /* circle@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +377,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				80E2F7D31E7960B80050B388 /* TakePhotoAndVideoView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

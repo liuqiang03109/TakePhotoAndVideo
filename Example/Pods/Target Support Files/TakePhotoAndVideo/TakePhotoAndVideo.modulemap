@@ -1,0 +1,6 @@
+framework module TakePhotoAndVideo {
+  umbrella header "TakePhotoAndVideo-umbrella.h"
+
+  export *
+  module * { export * }
+}

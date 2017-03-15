@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A90F43AD9657217569C8A669B849C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		11BBA7AB19036D07D742B8074F574B52 /* Pods-TakePhotoAndVideo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC296BC4653B75ACBC903DD1917F486B /* Pods-TakePhotoAndVideo_Example-dummy.m */; };
+		6597480C3255DAC32195B319AC90AFAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		6DCB89CC1D3FDB2F55CC37AAE7409EF2 /* Pods-TakePhotoAndVideo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B79CC258F6616501B1919EF723AA0C4 /* Pods-TakePhotoAndVideo_Tests-dummy.m */; };
+		74DEA0651C8982196DA7BBFC952A5419 /* Pods-TakePhotoAndVideo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0897EFC058FBECB5035BEA3E675ADD0B /* Pods-TakePhotoAndVideo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7475C1BEA58FB9A711CE0BBA3B9409 /* TakePhotoAndVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ABF29719DDDFD39E2FE14B6826E435 /* TakePhotoAndVideo-dummy.m */; };
+		8306B7C5A60CB08ACEB54FF891DA4C66 /* TakePhotoAndVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D06C1B500B800EC0DCA4E993B2CD6073 /* TakePhotoAndVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		87C17BBCF2504580BA995C10E146D30E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E3721ED576B3466DC178F03F88FB1A7A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F67DA16CB2F3EF85F95985FF9077C /* ReplaceMe.swift */; };
+		F8FA9E4C20D7EAEF3902CC4BE58CDADC /* Pods-TakePhotoAndVideo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CB2B92D019BD7BB534FD7C77ACD7CD /* Pods-TakePhotoAndVideo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AF6D736CE5D3D9CB76F54F27EEC4FBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB06D18E8CC64A9D275C6C9F40A944E0;
+			remoteInfo = TakePhotoAndVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011AA62372C4C987D28DE6A0C688CE75 /* Pods-TakePhotoAndVideo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakePhotoAndVideo_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0897EFC058FBECB5035BEA3E675ADD0B /* Pods-TakePhotoAndVideo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakePhotoAndVideo_Tests-umbrella.h"; sourceTree = "<group>"; };
+		0B8F67DA16CB2F3EF85F95985FF9077C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		0D48DDEF405911EBFF499BE879075F3C /* Pods-TakePhotoAndVideo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakePhotoAndVideo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1B79CC258F6616501B1919EF723AA0C4 /* Pods-TakePhotoAndVideo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakePhotoAndVideo_Tests-dummy.m"; sourceTree = "<group>"; };
+		1BF7CD78014EE224D2C36577558D189A /* Pods-TakePhotoAndVideo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakePhotoAndVideo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1E8BAB3C249A7902170FF0B2EB8EFE70 /* TakePhotoAndVideo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TakePhotoAndVideo.xcconfig; sourceTree = "<group>"; };
+		209D4405E15EB7E9B8F465B4F8F9250D /* TakePhotoAndVideo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = TakePhotoAndVideo.modulemap; sourceTree = "<group>"; };
+		2523EFEF9E26784BCE9C44B97EF1ABE4 /* Pods-TakePhotoAndVideo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakePhotoAndVideo_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2BC04BAA5D19B6B457AD6F2155721A37 /* Pods_TakePhotoAndVideo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TakePhotoAndVideo_Tests.framework; path = "Pods-TakePhotoAndVideo_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3627A0B4C5309D750DF3D75C97CCD4D9 /* Pods-TakePhotoAndVideo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TakePhotoAndVideo_Example.modulemap"; sourceTree = "<group>"; };
+		48ABF29719DDDFD39E2FE14B6826E435 /* TakePhotoAndVideo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TakePhotoAndVideo-dummy.m"; sourceTree = "<group>"; };
+		5F90F13FF24E86E4D4E5359D4EE5AAB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62EDD385DC6712B4DAE35A26B4F74D71 /* Pods-TakePhotoAndVideo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakePhotoAndVideo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		77CB2B92D019BD7BB534FD7C77ACD7CD /* Pods-TakePhotoAndVideo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakePhotoAndVideo_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C5387BA6460A6B4D436418D62643AC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A524A531395757842B0C444E69AF5C9E /* Pods-TakePhotoAndVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakePhotoAndVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6C79904A4356EAE05EA73EB139267DE /* Pods-TakePhotoAndVideo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakePhotoAndVideo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2BC67A66E30A987F670F144E7C8334D /* TakePhotoAndVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TakePhotoAndVideo.framework; path = TakePhotoAndVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB22C0D57B144BC20B135E5B51184575 /* TakePhotoAndVideo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakePhotoAndVideo-prefix.pch"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D06C1B500B800EC0DCA4E993B2CD6073 /* TakePhotoAndVideo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TakePhotoAndVideo-umbrella.h"; sourceTree = "<group>"; };
+		D971E10699E4F927235C63E1632F7B02 /* Pods-TakePhotoAndVideo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakePhotoAndVideo_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E6DC53773B80EF453F735025A8D5DA4B /* Pods-TakePhotoAndVideo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakePhotoAndVideo_Example.release.xcconfig"; sourceTree = "<group>"; };
+		EBBF706573D8106AEAB951152AB557AC /* Pods_TakePhotoAndVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TakePhotoAndVideo_Example.framework; path = "Pods-TakePhotoAndVideo_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFB5AB0A69A9AC47F974779254E174AE /* Pods-TakePhotoAndVideo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakePhotoAndVideo_Tests-resources.sh"; sourceTree = "<group>"; };
+		F6720515F3ADDCBA6251D2EAF3C73274 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F847912A75A1B71F515975B511D13A53 /* Pods-TakePhotoAndVideo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakePhotoAndVideo_Example-resources.sh"; sourceTree = "<group>"; };
+		FA7ADC2EB717218FF8B5B9369B1D8F6C /* Pods-TakePhotoAndVideo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakePhotoAndVideo_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		FC296BC4653B75ACBC903DD1917F486B /* Pods-TakePhotoAndVideo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakePhotoAndVideo_Example-dummy.m"; sourceTree = "<group>"; };
+		FE6119CFF5039912D5D82F090D9D2B69 /* Pods-TakePhotoAndVideo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-TakePhotoAndVideo_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B31EA39021C5B6B3DA675BF2557B0B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6597480C3255DAC32195B319AC90AFAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87E84971C090C76421169B9669AC2BB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A90F43AD9657217569C8A669B849C69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA723786C261F0E66C30C996D410118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87C17BBCF2504580BA995C10E146D30E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		083A85B7C7DE763A41FCA0B77D30C437 /* TakePhotoAndVideo */ = {
+			isa = PBXGroup;
+			children = (
+				CD1A12559134ADDE5BEEE38EB4390E32 /* Classes */,
+			);
+			name = TakePhotoAndVideo;
+			path = TakePhotoAndVideo;
+			sourceTree = "<group>";
+		};
+		21EFF73E2CB4D201C58761C7573D2229 /* TakePhotoAndVideo */ = {
+			isa = PBXGroup;
+			children = (
+				F871570E9B0C75C1A3D9BBA2699A0CC3 /* Support Files */,
+				083A85B7C7DE763A41FCA0B77D30C437 /* TakePhotoAndVideo */,
+			);
+			name = TakePhotoAndVideo;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		2F1569F647BAFBE896F5A439D03EF6A6 /* Pods-TakePhotoAndVideo_Example */ = {
+			isa = PBXGroup;
+			children = (
+				5F90F13FF24E86E4D4E5359D4EE5AAB8 /* Info.plist */,
+				3627A0B4C5309D750DF3D75C97CCD4D9 /* Pods-TakePhotoAndVideo_Example.modulemap */,
+				0D48DDEF405911EBFF499BE879075F3C /* Pods-TakePhotoAndVideo_Example-acknowledgements.markdown */,
+				1BF7CD78014EE224D2C36577558D189A /* Pods-TakePhotoAndVideo_Example-acknowledgements.plist */,
+				FC296BC4653B75ACBC903DD1917F486B /* Pods-TakePhotoAndVideo_Example-dummy.m */,
+				011AA62372C4C987D28DE6A0C688CE75 /* Pods-TakePhotoAndVideo_Example-frameworks.sh */,
+				F847912A75A1B71F515975B511D13A53 /* Pods-TakePhotoAndVideo_Example-resources.sh */,
+				77CB2B92D019BD7BB534FD7C77ACD7CD /* Pods-TakePhotoAndVideo_Example-umbrella.h */,
+				2523EFEF9E26784BCE9C44B97EF1ABE4 /* Pods-TakePhotoAndVideo_Example.debug.xcconfig */,
+				E6DC53773B80EF453F735025A8D5DA4B /* Pods-TakePhotoAndVideo_Example.release.xcconfig */,
+			);
+			name = "Pods-TakePhotoAndVideo_Example";
+			path = "Target Support Files/Pods-TakePhotoAndVideo_Example";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7946F9A21FA178913474276A4417B99E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				21EFF73E2CB4D201C58761C7573D2229 /* TakePhotoAndVideo */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				7946F9A21FA178913474276A4417B99E /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A6A79B5950E8E8B999B32D9BD16E185F /* Products */,
+				86F469F4DB949DB0AF9B26843463E9C9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86F469F4DB949DB0AF9B26843463E9C9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F1569F647BAFBE896F5A439D03EF6A6 /* Pods-TakePhotoAndVideo_Example */,
+				DEB1EA9D913F4667CED011CDFB72D902 /* Pods-TakePhotoAndVideo_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A6A79B5950E8E8B999B32D9BD16E185F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBBF706573D8106AEAB951152AB557AC /* Pods_TakePhotoAndVideo_Example.framework */,
+				2BC04BAA5D19B6B457AD6F2155721A37 /* Pods_TakePhotoAndVideo_Tests.framework */,
+				B2BC67A66E30A987F670F144E7C8334D /* TakePhotoAndVideo.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1A12559134ADDE5BEEE38EB4390E32 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0B8F67DA16CB2F3EF85F95985FF9077C /* ReplaceMe.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DEB1EA9D913F4667CED011CDFB72D902 /* Pods-TakePhotoAndVideo_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F6720515F3ADDCBA6251D2EAF3C73274 /* Info.plist */,
+				FE6119CFF5039912D5D82F090D9D2B69 /* Pods-TakePhotoAndVideo_Tests.modulemap */,
+				A6C79904A4356EAE05EA73EB139267DE /* Pods-TakePhotoAndVideo_Tests-acknowledgements.markdown */,
+				62EDD385DC6712B4DAE35A26B4F74D71 /* Pods-TakePhotoAndVideo_Tests-acknowledgements.plist */,
+				1B79CC258F6616501B1919EF723AA0C4 /* Pods-TakePhotoAndVideo_Tests-dummy.m */,
+				FA7ADC2EB717218FF8B5B9369B1D8F6C /* Pods-TakePhotoAndVideo_Tests-frameworks.sh */,
+				EFB5AB0A69A9AC47F974779254E174AE /* Pods-TakePhotoAndVideo_Tests-resources.sh */,
+				0897EFC058FBECB5035BEA3E675ADD0B /* Pods-TakePhotoAndVideo_Tests-umbrella.h */,
+				A524A531395757842B0C444E69AF5C9E /* Pods-TakePhotoAndVideo_Tests.debug.xcconfig */,
+				D971E10699E4F927235C63E1632F7B02 /* Pods-TakePhotoAndVideo_Tests.release.xcconfig */,
+			);
+			name = "Pods-TakePhotoAndVideo_Tests";
+			path = "Target Support Files/Pods-TakePhotoAndVideo_Tests";
+			sourceTree = "<group>";
+		};
+		F871570E9B0C75C1A3D9BBA2699A0CC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C5387BA6460A6B4D436418D62643AC3 /* Info.plist */,
+				209D4405E15EB7E9B8F465B4F8F9250D /* TakePhotoAndVideo.modulemap */,
+				1E8BAB3C249A7902170FF0B2EB8EFE70 /* TakePhotoAndVideo.xcconfig */,
+				48ABF29719DDDFD39E2FE14B6826E435 /* TakePhotoAndVideo-dummy.m */,
+				BB22C0D57B144BC20B135E5B51184575 /* TakePhotoAndVideo-prefix.pch */,
+				D06C1B500B800EC0DCA4E993B2CD6073 /* TakePhotoAndVideo-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TakePhotoAndVideo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0263B459E67F0D4B8A8F8C81193F22A3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8FA9E4C20D7EAEF3902CC4BE58CDADC /* Pods-TakePhotoAndVideo_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DB7048AEE9AD05618EF781111A7DAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DEA0651C8982196DA7BBFC952A5419 /* Pods-TakePhotoAndVideo_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988BDB20DCFA236B86C84047D28DCAD4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8306B7C5A60CB08ACEB54FF891DA4C66 /* TakePhotoAndVideo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		70041618F9A0AE1C9B237A2A7708CC06 /* Pods-TakePhotoAndVideo_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECDF6F3E05B2075965032996EC7879D7 /* Build configuration list for PBXNativeTarget "Pods-TakePhotoAndVideo_Tests" */;
+			buildPhases = (
+				E8A846D3045D738FD1B3563CB0BC02A8 /* Sources */,
+				87E84971C090C76421169B9669AC2BB8 /* Frameworks */,
+				74DB7048AEE9AD05618EF781111A7DAF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-TakePhotoAndVideo_Tests";
+			productName = "Pods-TakePhotoAndVideo_Tests";
+			productReference = 2BC04BAA5D19B6B457AD6F2155721A37 /* Pods_TakePhotoAndVideo_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87A679A33A6D35F8BBCB228E42F5965F /* Pods-TakePhotoAndVideo_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0268C38F5E423828E79DA618838F4D9 /* Build configuration list for PBXNativeTarget "Pods-TakePhotoAndVideo_Example" */;
+			buildPhases = (
+				E34B1F76F74368C0BCCD9F8F3AEB086B /* Sources */,
+				AFA723786C261F0E66C30C996D410118 /* Frameworks */,
+				0263B459E67F0D4B8A8F8C81193F22A3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DAFA43BED51C82B1550253D0B72F702 /* PBXTargetDependency */,
+			);
+			name = "Pods-TakePhotoAndVideo_Example";
+			productName = "Pods-TakePhotoAndVideo_Example";
+			productReference = EBBF706573D8106AEAB951152AB557AC /* Pods_TakePhotoAndVideo_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AB06D18E8CC64A9D275C6C9F40A944E0 /* TakePhotoAndVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 292FDC1DA7375530BA2C94C9DAF71F6E /* Build configuration list for PBXNativeTarget "TakePhotoAndVideo" */;
+			buildPhases = (
+				0D60100241F3D7C0F75F2CE306C96F48 /* Sources */,
+				0B31EA39021C5B6B3DA675BF2557B0B2 /* Frameworks */,
+				988BDB20DCFA236B86C84047D28DCAD4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TakePhotoAndVideo;
+			productName = TakePhotoAndVideo;
+			productReference = B2BC67A66E30A987F670F144E7C8334D /* TakePhotoAndVideo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A6A79B5950E8E8B999B32D9BD16E185F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87A679A33A6D35F8BBCB228E42F5965F /* Pods-TakePhotoAndVideo_Example */,
+				70041618F9A0AE1C9B237A2A7708CC06 /* Pods-TakePhotoAndVideo_Tests */,
+				AB06D18E8CC64A9D275C6C9F40A944E0 /* TakePhotoAndVideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D60100241F3D7C0F75F2CE306C96F48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3721ED576B3466DC178F03F88FB1A7A /* ReplaceMe.swift in Sources */,
+				7C7475C1BEA58FB9A711CE0BBA3B9409 /* TakePhotoAndVideo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E34B1F76F74368C0BCCD9F8F3AEB086B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BBA7AB19036D07D742B8074F574B52 /* Pods-TakePhotoAndVideo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A846D3045D738FD1B3563CB0BC02A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DCB89CC1D3FDB2F55CC37AAE7409EF2 /* Pods-TakePhotoAndVideo_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DAFA43BED51C82B1550253D0B72F702 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TakePhotoAndVideo;
+			target = AB06D18E8CC64A9D275C6C9F40A944E0 /* TakePhotoAndVideo */;
+			targetProxy = 1AF6D736CE5D3D9CB76F54F27EEC4FBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A8EBA24979836558656631C0FB1834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D971E10699E4F927235C63E1632F7B02 /* Pods-TakePhotoAndVideo_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Tests/Pods-TakePhotoAndVideo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TakePhotoAndVideo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13A17646458FFDBBA6D3C38BE37F5083 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8BAB3C249A7902170FF0B2EB8EFE70 /* TakePhotoAndVideo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TakePhotoAndVideo/TakePhotoAndVideo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TakePhotoAndVideo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TakePhotoAndVideo/TakePhotoAndVideo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = TakePhotoAndVideo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C1A6BE9CE115EE11EE63E2AF222DCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A524A531395757842B0C444E69AF5C9E /* Pods-TakePhotoAndVideo_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Tests/Pods-TakePhotoAndVideo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TakePhotoAndVideo_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4662AF9778F9B31FB0A91B74C245F3D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2523EFEF9E26784BCE9C44B97EF1ABE4 /* Pods-TakePhotoAndVideo_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Example/Pods-TakePhotoAndVideo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TakePhotoAndVideo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A98C633C284AE8790EB931519382A3F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8BAB3C249A7902170FF0B2EB8EFE70 /* TakePhotoAndVideo.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/TakePhotoAndVideo/TakePhotoAndVideo-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TakePhotoAndVideo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/TakePhotoAndVideo/TakePhotoAndVideo.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = TakePhotoAndVideo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E570D157B9D92D4197CEE0163A2AE138 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6DC53773B80EF453F735025A8D5DA4B /* Pods-TakePhotoAndVideo_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TakePhotoAndVideo_Example/Pods-TakePhotoAndVideo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_TakePhotoAndVideo_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		292FDC1DA7375530BA2C94C9DAF71F6E /* Build configuration list for PBXNativeTarget "TakePhotoAndVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13A17646458FFDBBA6D3C38BE37F5083 /* Debug */,
+				7A98C633C284AE8790EB931519382A3F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0268C38F5E423828E79DA618838F4D9 /* Build configuration list for PBXNativeTarget "Pods-TakePhotoAndVideo_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4662AF9778F9B31FB0A91B74C245F3D7 /* Debug */,
+				E570D157B9D92D4197CEE0163A2AE138 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECDF6F3E05B2075965032996EC7879D7 /* Build configuration list for PBXNativeTarget "Pods-TakePhotoAndVideo_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C1A6BE9CE115EE11EE63E2AF222DCF4 /* Debug */,
+				00A8EBA24979836558656631C0FB1834 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

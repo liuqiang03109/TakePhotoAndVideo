@@ -1,0 +1,16 @@
+PODS:
+  - TakePhotoAndVideo (0.1.0)
+
+DEPENDENCIES:
+  - TakePhotoAndVideo (from `../`)
+
+EXTERNAL SOURCES:
+  TakePhotoAndVideo:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TakePhotoAndVideo: 44eedfca43807ecd70f798cfbc85853f4b583121
+
+PODFILE CHECKSUM: 6a0621760364a2ff6712e5e0d731581b05cd2217
+
+COCOAPODS: 1.2.0
