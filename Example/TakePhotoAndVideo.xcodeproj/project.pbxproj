@@ -14,6 +14,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		6DF0B536E7A4A77756F91574 /* Pods_TakePhotoAndVideo_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B70DCA037F0F3D6588A03AA /* Pods_TakePhotoAndVideo_Tests.framework */; };
+		80B5BC5A1E7BDF80006A06E5 /* TakePhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80B5BC591E7BDF80006A06E5 /* TakePhotoButton.swift */; };
 		80E2F7D31E7960B80050B388 /* TakePhotoAndVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E2F7D21E7960B80050B388 /* TakePhotoAndVideoView.swift */; };
 		80E2F7D51E7961000050B388 /* circle@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80E2F7D41E7961000050B388 /* circle@2x.jpg */; };
 		9E004110134A3839E97CEC4A /* Pods_TakePhotoAndVideo_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88EC5617B159B2193DDEED5F /* Pods_TakePhotoAndVideo_Example.framework */; };
@@ -43,6 +44,7 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		669F65FDBA0F506B5F667D47 /* Pods-TakePhotoAndVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TakePhotoAndVideo_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TakePhotoAndVideo_Tests/Pods-TakePhotoAndVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		80B5BC591E7BDF80006A06E5 /* TakePhotoButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoButton.swift; sourceTree = "<group>"; };
 		80E2F7D21E7960B80050B388 /* TakePhotoAndVideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TakePhotoAndVideoView.swift; sourceTree = "<group>"; };
 		80E2F7D41E7961000050B388 /* circle@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "circle@2x.jpg"; sourceTree = "<group>"; };
 		88EC5617B159B2193DDEED5F /* Pods_TakePhotoAndVideo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TakePhotoAndVideo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -169,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				80E2F7D21E7960B80050B388 /* TakePhotoAndVideoView.swift */,
+				80B5BC591E7BDF80006A06E5 /* TakePhotoButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -379,6 +382,7 @@
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				80E2F7D31E7960B80050B388 /* TakePhotoAndVideoView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				80B5BC5A1E7BDF80006A06E5 /* TakePhotoButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

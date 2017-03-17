@@ -22,13 +22,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Few-VV-xvn">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Few-VV-xvn" customClass="TakePhotoButton" customModule="TakePhotoAndVideo_Example" customModuleProvider="target">
                                 <rect key="frame" x="162.5" y="572" width="50" height="50"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="50" id="ImQ-Nm-Rpd"/>
                                     <constraint firstAttribute="width" secondItem="Few-VV-xvn" secondAttribute="height" multiplier="1:1" id="eMb-eV-276"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="circle.jpg"/>
+                                <state key="highlighted" backgroundImage="circle.jpg"/>
+                                <connections>
+                                    <action selector="startPhoto:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="E1O-Ky-GTO"/>
+                                    <action selector="take:" destination="vXZ-lx-hvc" eventType="touchDown" id="zOe-D3-DKi"/>
+                                    <outletCollection property="gestureRecognizers" destination="8Yb-8L-iD1" appends="YES" id="Dsn-Di-6Lf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -37,8 +44,17 @@
                             <constraint firstItem="Few-VV-xvn" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="lTI-8I-3bP"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="startBtn" destination="Few-VV-xvn" id="3OA-xp-ksf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <pongPressGestureRecognizer allowableMovement="10" minimumPressDuration="2" id="8Yb-8L-iD1">
+                    <connections>
+                        <action selector="startTakeVideo:" destination="vXZ-lx-hvc" id="Wdw-ff-Kfc"/>
+                    </connections>
+                </pongPressGestureRecognizer>
+                <tapGestureRecognizer cancelsTouchesInView="NO" delaysTouchesBegan="YES" delaysTouchesEnded="NO" id="r35-RX-yoX"/>
             </objects>
             <point key="canvasLocation" x="94" y="100"/>
         </scene>
