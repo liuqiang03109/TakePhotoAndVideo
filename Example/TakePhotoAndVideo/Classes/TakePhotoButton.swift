@@ -14,18 +14,22 @@ class TakePhotoButton: UIButton {
     fileprivate let progessLayer: CAShapeLayer = {
         let layer = CAShapeLayer()
         layer.fillColor = UIColor.clear.cgColor
-        layer.strokeColor = UIColor.red.cgColor
+        layer.strokeColor = UIColor.blue.cgColor
         layer.lineCap = kCALineCapRound
         layer.lineWidth = 2
         return layer
     }()
     
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+    }
     
     internal override func draw(_ rect: CGRect) {
         let width: CGFloat = 4
         let center = CGPoint(x: bounds.width * 0.5, y: bounds.height * 0.5)
         let radius = (bounds.width - width) * 0.5
-        print(frame, "---------", center, ">>>>>>", radius)
+        
         let startPoint: CGFloat = -(CGFloat)(M_PI_2)
         let endPoint: CGFloat = -(CGFloat)(M_PI_2) + (CGFloat)(M_PI) * 2 * progress
         progessLayer.frame = bounds

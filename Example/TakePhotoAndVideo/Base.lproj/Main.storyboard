@@ -22,7 +22,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Few-VV-xvn" customClass="TakePhotoButton" customModule="TakePhotoAndVideo_Example" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Few-VV-xvn" customClass="TakePhotoButton" customModule="TakePhotoAndVideo_Example" customModuleProvider="target">
                                 <rect key="frame" x="162.5" y="572" width="50" height="50"/>
                                 <gestureRecognizers/>
                                 <constraints>
@@ -37,15 +37,24 @@
                                     <outletCollection property="gestureRecognizers" destination="8Yb-8L-iD1" appends="YES" id="Dsn-Di-6Lf"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点击拍照，长按录像" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Ur-bU-2lU">
+                                <rect key="frame" x="123" y="538" width="129" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Few-VV-xvn" secondAttribute="bottom" constant="45" id="IaH-h2-pPr"/>
+                            <constraint firstItem="Few-VV-xvn" firstAttribute="top" secondItem="8Ur-bU-2lU" secondAttribute="bottom" constant="17" id="KSa-Ra-vsX"/>
                             <constraint firstItem="Few-VV-xvn" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="lTI-8I-3bP"/>
+                            <constraint firstItem="8Ur-bU-2lU" firstAttribute="centerX" secondItem="Few-VV-xvn" secondAttribute="centerX" id="vOj-6b-QjZ"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="startBtn" destination="Few-VV-xvn" id="3OA-xp-ksf"/>
+                        <outlet property="timeLabel" destination="8Ur-bU-2lU" id="3Qg-hS-9nv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -57,6 +66,46 @@
                 <tapGestureRecognizer cancelsTouchesInView="NO" delaysTouchesBegan="YES" delaysTouchesEnded="NO" id="r35-RX-yoX"/>
             </objects>
             <point key="canvasLocation" x="94" y="100"/>
+        </scene>
+        <!--Play View Controller-->
+        <scene sceneID="fqq-JS-0Js">
+            <objects>
+                <viewController storyboardIdentifier="play" id="evq-Gf-YaZ" customClass="PlayViewController" customModule="TakePhotoAndVideo_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="259-v6-LLg"/>
+                        <viewControllerLayoutGuide type="bottom" id="grH-9G-88b"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RuK-gH-xiX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVs-rs-Vws">
+                                <rect key="frame" x="172" y="517" width="31" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="放弃"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="evq-Gf-YaZ" eventType="touchUpInside" id="nDr-g7-Jn5"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hnx-iv-Tg6">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Hnx-iv-Tg6" firstAttribute="top" secondItem="RuK-gH-xiX" secondAttribute="top" id="5hH-Z3-39a"/>
+                            <constraint firstItem="Hnx-iv-Tg6" firstAttribute="leading" secondItem="RuK-gH-xiX" secondAttribute="leading" id="Ogt-yr-ZGn"/>
+                            <constraint firstAttribute="trailing" secondItem="Hnx-iv-Tg6" secondAttribute="trailing" id="QlL-AA-npu"/>
+                            <constraint firstItem="grH-9G-88b" firstAttribute="top" secondItem="Hnx-iv-Tg6" secondAttribute="bottom" id="sVI-I3-bbB"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="Hnx-iv-Tg6" id="5Uq-Qj-vnc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YeV-S3-OZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="823" y="228"/>
         </scene>
     </scenes>
     <resources>
