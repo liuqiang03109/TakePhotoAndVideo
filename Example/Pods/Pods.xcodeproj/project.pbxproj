@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		0A90F43AD9657217569C8A669B849C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		11BBA7AB19036D07D742B8074F574B52 /* Pods-TakePhotoAndVideo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FC296BC4653B75ACBC903DD1917F486B /* Pods-TakePhotoAndVideo_Example-dummy.m */; };
+		595E6A1626E3BEA931E337CA8F9AB969 /* TakePhotoButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 940D96A0852486B8838ABBFFF85DD8DA /* TakePhotoButton.swift */; };
 		6597480C3255DAC32195B319AC90AFAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		6DCB89CC1D3FDB2F55CC37AAE7409EF2 /* Pods-TakePhotoAndVideo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B79CC258F6616501B1919EF723AA0C4 /* Pods-TakePhotoAndVideo_Tests-dummy.m */; };
 		74DEA0651C8982196DA7BBFC952A5419 /* Pods-TakePhotoAndVideo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0897EFC058FBECB5035BEA3E675ADD0B /* Pods-TakePhotoAndVideo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C7475C1BEA58FB9A711CE0BBA3B9409 /* TakePhotoAndVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ABF29719DDDFD39E2FE14B6826E435 /* TakePhotoAndVideo-dummy.m */; };
 		8306B7C5A60CB08ACEB54FF891DA4C66 /* TakePhotoAndVideo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D06C1B500B800EC0DCA4E993B2CD6073 /* TakePhotoAndVideo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		87C17BBCF2504580BA995C10E146D30E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		E3721ED576B3466DC178F03F88FB1A7A /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8F67DA16CB2F3EF85F95985FF9077C /* ReplaceMe.swift */; };
+		CCF69974DB80CB635A25C6CE36466E6E /* TakePhotoTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD879255976BFD5AA458D87AFFB4DB /* TakePhotoTool.swift */; };
+		F5BA91DC3654CCADC063F057518CC7DC /* TakePhotoAndVideo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 48ABF29719DDDFD39E2FE14B6826E435 /* TakePhotoAndVideo-dummy.m */; };
 		F8FA9E4C20D7EAEF3902CC4BE58CDADC /* Pods-TakePhotoAndVideo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CB2B92D019BD7BB534FD7C77ACD7CD /* Pods-TakePhotoAndVideo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -32,7 +33,6 @@
 /* Begin PBXFileReference section */
 		011AA62372C4C987D28DE6A0C688CE75 /* Pods-TakePhotoAndVideo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TakePhotoAndVideo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		0897EFC058FBECB5035BEA3E675ADD0B /* Pods-TakePhotoAndVideo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakePhotoAndVideo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0B8F67DA16CB2F3EF85F95985FF9077C /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		0D48DDEF405911EBFF499BE879075F3C /* Pods-TakePhotoAndVideo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakePhotoAndVideo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B79CC258F6616501B1919EF723AA0C4 /* Pods-TakePhotoAndVideo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TakePhotoAndVideo_Tests-dummy.m"; sourceTree = "<group>"; };
 		1BF7CD78014EE224D2C36577558D189A /* Pods-TakePhotoAndVideo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TakePhotoAndVideo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -47,6 +47,8 @@
 		77CB2B92D019BD7BB534FD7C77ACD7CD /* Pods-TakePhotoAndVideo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TakePhotoAndVideo_Example-umbrella.h"; sourceTree = "<group>"; };
 		8C5387BA6460A6B4D436418D62643AC3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940D96A0852486B8838ABBFFF85DD8DA /* TakePhotoButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TakePhotoButton.swift; sourceTree = "<group>"; };
+		9BFD879255976BFD5AA458D87AFFB4DB /* TakePhotoTool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TakePhotoTool.swift; sourceTree = "<group>"; };
 		A524A531395757842B0C444E69AF5C9E /* Pods-TakePhotoAndVideo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TakePhotoAndVideo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A6C79904A4356EAE05EA73EB139267DE /* Pods-TakePhotoAndVideo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TakePhotoAndVideo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B2BC67A66E30A987F670F144E7C8334D /* TakePhotoAndVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TakePhotoAndVideo.framework; path = TakePhotoAndVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,20 +94,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		083A85B7C7DE763A41FCA0B77D30C437 /* TakePhotoAndVideo */ = {
-			isa = PBXGroup;
-			children = (
-				CD1A12559134ADDE5BEEE38EB4390E32 /* Classes */,
-			);
-			name = TakePhotoAndVideo;
-			path = TakePhotoAndVideo;
-			sourceTree = "<group>";
-		};
 		21EFF73E2CB4D201C58761C7573D2229 /* TakePhotoAndVideo */ = {
 			isa = PBXGroup;
 			children = (
 				F871570E9B0C75C1A3D9BBA2699A0CC3 /* Support Files */,
-				083A85B7C7DE763A41FCA0B77D30C437 /* TakePhotoAndVideo */,
+				82197EA88D125474FC8436670010E9D4 /* TakePhotoAndVideo */,
 			);
 			name = TakePhotoAndVideo;
 			path = ../..;
@@ -127,6 +120,16 @@
 			);
 			name = "Pods-TakePhotoAndVideo_Example";
 			path = "Target Support Files/Pods-TakePhotoAndVideo_Example";
+			sourceTree = "<group>";
+		};
+		620363F8BA50C08B92204916B5103FA2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				940D96A0852486B8838ABBFFF85DD8DA /* TakePhotoButton.swift */,
+				9BFD879255976BFD5AA458D87AFFB4DB /* TakePhotoTool.swift */,
+			);
+			name = Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
@@ -156,6 +159,15 @@
 			);
 			sourceTree = "<group>";
 		};
+		82197EA88D125474FC8436670010E9D4 /* TakePhotoAndVideo */ = {
+			isa = PBXGroup;
+			children = (
+				620363F8BA50C08B92204916B5103FA2 /* Classes */,
+			);
+			name = TakePhotoAndVideo;
+			path = TakePhotoAndVideo;
+			sourceTree = "<group>";
+		};
 		86F469F4DB949DB0AF9B26843463E9C9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,15 +193,6 @@
 				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CD1A12559134ADDE5BEEE38EB4390E32 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				0B8F67DA16CB2F3EF85F95985FF9077C /* ReplaceMe.swift */,
-			);
-			name = Classes;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		DEB1EA9D913F4667CED011CDFB72D902 /* Pods-TakePhotoAndVideo_Tests */ = {
@@ -293,7 +296,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 292FDC1DA7375530BA2C94C9DAF71F6E /* Build configuration list for PBXNativeTarget "TakePhotoAndVideo" */;
 			buildPhases = (
-				0D60100241F3D7C0F75F2CE306C96F48 /* Sources */,
+				23EE13C58086335535728B01638A9689 /* Sources */,
 				0B31EA39021C5B6B3DA675BF2557B0B2 /* Frameworks */,
 				988BDB20DCFA236B86C84047D28DCAD4 /* Headers */,
 			);
@@ -335,12 +338,13 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D60100241F3D7C0F75F2CE306C96F48 /* Sources */ = {
+		23EE13C58086335535728B01638A9689 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3721ED576B3466DC178F03F88FB1A7A /* ReplaceMe.swift in Sources */,
-				7C7475C1BEA58FB9A711CE0BBA3B9409 /* TakePhotoAndVideo-dummy.m in Sources */,
+				F5BA91DC3654CCADC063F057518CC7DC /* TakePhotoAndVideo-dummy.m in Sources */,
+				595E6A1626E3BEA931E337CA8F9AB969 /* TakePhotoButton.swift in Sources */,
+				CCF69974DB80CB635A25C6CE36466E6E /* TakePhotoTool.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

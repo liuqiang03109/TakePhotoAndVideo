@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+类似于qq聊天拍照按钮的功能，点击拍照，长按拍摄短视频
                        DESC
 
-  s.homepage         = 'https://coding.net/u/liuqiang03109/p/TakePhoto'
+  s.homepage         = 'https://github.com/liuqiang03109/TakePhotoAndVideo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'liuqiang03109' => 'liu.wen.he@chrjdt.com' }
-  s.source           = { :git => 'https://git.coding.net/liuqiang03109/TakePhoto.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/liuqiang03109/TakePhotoAndVideo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

@@ -1,9 +1,9 @@
 {
   "name": "TakePhotoAndVideo",
   "version": "0.1.0",
-  "summary": "A short description of TakePhotoAndVideo.",
+  "summary": "TakePhotoAndVideo.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/liuqiang03109/TakePhotoAndVideo",
+  "homepage": "https://coding.net/u/liuqiang03109/p/TakePhoto",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "liuqiang03109": "liu.wen.he@chrjdt.com"
   },
   "source": {
-    "git": "https://github.com/liuqiang03109/TakePhotoAndVideo.git",
+    "git": "https://git.coding.net/liuqiang03109/TakePhoto.git",
     "tag": "0.1.0"
   },
   "platforms": {

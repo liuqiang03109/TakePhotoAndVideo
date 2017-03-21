@@ -1,9 +1,9 @@
 //
 //  PlayViewController.swift
-//  03-视频采集
+//  TakePhotoAndVideo
 //
 //  Created by DanLi on 2017/3/20.
-//  Copyright © 2017年 xmg. All rights reserved.
+//  Copyright © 2017年 DanLi. All rights reserved.
 //
 
 import UIKit

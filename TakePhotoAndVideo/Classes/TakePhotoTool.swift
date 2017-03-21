@@ -1,19 +1,18 @@
 //
 //  TakePhotoTool.swift
-//  03-视频采集
+//  TakePhotoAndVideo
 //
-//  Created by DanLi on 2017/3/20.
-//  Copyright © 2017年 xmg. All rights reserved.
+//  Created by DanLi on 2017/3/17.
+//  Copyright © 2017年 DanLi. All rights reserved.
 //
 
 
 import UIKit
-import AVFoundation
-import AssetsLibrary
+import AVFoundation 
 
 
-class TakePhotoTool: NSObject {
-    static let sharedTool: TakePhotoTool = TakePhotoTool()
+open class TakePhotoTool: NSObject {
+    open static let sharedTool: TakePhotoTool = TakePhotoTool()
     ///输入和输出设备之间的数据会话
     fileprivate var session = AVCaptureSession()
     ///输入设备
@@ -165,15 +164,15 @@ extension TakePhotoTool {
 }
 
 extension TakePhotoTool: AVCaptureFileOutputRecordingDelegate {
-    func capture(_ captureOutput: AVCaptureFileOutput!, didFinishRecordingToOutputFileAt outputFileURL: URL!, fromConnections connections: [Any]!, error: Error!) {
-        print("完成写入文件")
+    public func capture(_ captureOutput: AVCaptureFileOutput!, didFinishRecordingToOutputFileAt outputFileURL: URL!, fromConnections connections: [Any]!, error: Error!) {
+        print("文件写入完成")
         if compeleted != nil {
             self.preViewLayer?.removeFromSuperlayer()
             compeleted!(outputFileURL)
         }
     }
-    func capture(_ captureOutput: AVCaptureFileOutput!, didStartRecordingToOutputFileAt fileURL: URL!, fromConnections connections: [Any]!) {
-        print("开始写入文件")
+    public func capture(_ captureOutput: AVCaptureFileOutput!, didStartRecordingToOutputFileAt fileURL: URL!, fromConnections connections: [Any]!) {
+        print("开始写入文件到本地")
     }
     
 }

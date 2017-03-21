@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import TakePhotoAndVideo
 
 class ViewController: UIViewController {
 

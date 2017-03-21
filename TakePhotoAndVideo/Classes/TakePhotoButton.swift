@@ -3,12 +3,12 @@
 //  TakePhotoAndVideo
 //
 //  Created by DanLi on 2017/3/17.
-//  Copyright © 2017年 CocoaPods. All rights reserved.
+//  Copyright © 2017年 DanLi. All rights reserved.
 //
 
 import UIKit
 
-class TakePhotoButton: UIButton {
+open class TakePhotoButton: UIButton {
  
     fileprivate var progress: CGFloat = 0
     fileprivate let progessLayer: CAShapeLayer = {
@@ -20,12 +20,7 @@ class TakePhotoButton: UIButton {
         return layer
     }()
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        
-    }
-    
-    internal override func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         let width: CGFloat = 4
         let center = CGPoint(x: bounds.width * 0.5, y: bounds.height * 0.5)
         let radius = (bounds.width - width) * 0.5
@@ -41,7 +36,8 @@ class TakePhotoButton: UIButton {
 }
 
 extension TakePhotoButton {
-    func draw(_ progress: CGFloat) {
+    
+    open func draw(_ progress: CGFloat) {
         self.progress = progress
         
         setNeedsDisplay()
